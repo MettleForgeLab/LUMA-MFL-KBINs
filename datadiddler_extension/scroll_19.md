@@ -10,17 +10,17 @@ Signal Set
 
 
 
-D := {
+D := {  
 
-&#x20; missing\_output,
+&#x20; missing\_output,  
 
-&#x20; conditional\_file,
+&#x20; conditional\_file,  
 
-&#x20; implicit\_link,
+&#x20; implicit\_link,  
 
-&#x20; semantic\_validation,
+&#x20; semantic\_validation,  
 
-&#x20; hidden\_dependency
+&#x20; hidden\_dependency  
 
 }
 
@@ -46,7 +46,7 @@ Severity Gradient
 
 
 
-minor → recoverable
+minor → recoverable  
 
 major → structural breach
 
@@ -56,19 +56,19 @@ Response Protocol
 
 
 
-flag ⇒ invoke(R)
+flag ⇒ invoke(R)  
 
 if unresolved ⇒ reject(change)
 
 
 
-Reflection Token
+◻
 
 
 
-\[\[drift whispers]]
+\[\[drift whispers]]  
 
-\[\[detect early]]
+\[\[detect early]]  
 
 \[\[restore fast]]
 

@@ -12,9 +12,9 @@ Core Law
 
 Σ(system) → remove(x)  
 
-if survive → x ∉ core  
+if survive ⇒ x ∉ core  
 
-if break → x ∈ core
+if break ⇒ x ∈ core
 
 
 
@@ -22,9 +22,9 @@ Irreducible Spine
 
 
 
-K := {rake ⊕ separator ⊕ tagger ⊕ packager}
+K := {rake ⊕ separator ⊕ tagger ⊕ packager}  
 
-∀x ∉ K → removable
+∀x ∉ K ⇒ removable
 
 
 
@@ -34,7 +34,7 @@ Execution Constraint
 
 order(K) = fixed  
 
-¬permute(K)
+¬permute(K)  
 
 ¬skip(stage)
 
@@ -44,7 +44,7 @@ Determinism Condition
 
 
 
-I(t₀) = I(t₁) ⇒ O(t₀) = O(t₁)
+I(t₀) = I(t₁) ⇒ O(t₀) = O(t₁)  
 
 ¬random  
 
@@ -58,7 +58,7 @@ Truth Surface Binding
 
 
 
-T := {manifest, status}
+T := {manifest, status}  
 
 truth(system) ∈ T  
 
@@ -76,7 +76,7 @@ rc ≠ 0 ⇒ halt
 
 
 
-Reflection Token
+◻
 
 
 

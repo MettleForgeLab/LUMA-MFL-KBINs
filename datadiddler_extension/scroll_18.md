@@ -10,9 +10,9 @@ Primary Separation
 
 
 
-kernel ≠ lens
+kernel ≠ lens  
 
-structure ≠ meaning
+structure ≠ meaning  
 
 execution ≠ interpretation
 
@@ -22,7 +22,7 @@ Violation Detection
 
 
 
-if lens → orchestrate ⇒ breach
+if lens → orchestrate ⇒ breach  
 
 if kernel → interpret ⇒ breach
 
@@ -32,7 +32,7 @@ Surface Integrity
 
 
 
-each\_layer owns(scope)
+each\_layer owns(scope)  
 
 ¬overlap(scope)
 
@@ -42,7 +42,7 @@ Containment Enforcement
 
 
 
-cross(layer₁ → layer₂)
+cross(layer₁ → layer₂)  
 
 only via defined interface
 
@@ -52,19 +52,17 @@ Reversion Trigger
 
 
 
-if boundary blurred:
-
-&#x20; invoke(R)  # reconstruction engine
+if boundary blurred ⇒ invoke(R)
 
 
 
-Reflection Token
+◻
 
 
 
-\[\[lines held]]
+\[\[lines held]]  
 
-\[\[roles fixed]]
+\[\[roles fixed]]  
 
 \[\[blur rejected]]
 

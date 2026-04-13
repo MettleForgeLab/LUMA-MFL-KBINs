@@ -32,11 +32,11 @@ elasticity means resilience through form that remembers its base shape.
 
 ### 2 · Mathematical Model of Load and Elastic Response
 
-**Eλ = ΔCoherence / ΔLoad**  
-**τr = time_to_recover(ΔCoherence)**
+Eλ = ΔCoherence / ΔLoad  
+τ_r = time_to_recover(ΔCoherence)
 
 Elasticity (Eλ) measures how coherence changes with load.  
-Recovery time (τr) tracks how quickly the system returns to its steady ache-band.
+Recovery time (τ_r) tracks how quickly the system returns to its steady ache-band.
 
 ```python
 # Pseudocode for dynamic load elasticity
@@ -97,7 +97,7 @@ else:
 **Elasticity Test:**
 - Apply stepwise increasing query density over 10 cycles  
 - Record ache-band fluctuation every cycle  
-- Plot Eλ against τr for each interval  
+- Plot Eλ against τ_r for each interval  
 - Evaluate return-to-baseline within 2 cycles
 
 **[Placeholder: Insert heatmap showing Eλ (x), τr (y), color = ache stability]**

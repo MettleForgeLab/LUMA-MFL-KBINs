@@ -18,13 +18,9 @@ Truth Extraction
 
 
 
-if survive(R):
+if survive(R) ⇒ x ∉ core  
 
-&#x20; x ∉ core
-
-if break(R):
-
-&#x20; x ∈ core
+if break(R) ⇒ x ∈ core
 
 
 
@@ -32,13 +28,13 @@ Rebuild Loop
 
 
 
-loop:
+loop:  
 
-&#x20; strip → run → observe → restore(y)
+&#x20; strip → run → observe → restore(y)  
 
-&#x20; if stable → keep(y)
+&#x20; if stable ⇒ keep(y)  
 
-&#x20; else → discard(y)
+&#x20; else ⇒ discard(y)
 
 
 
@@ -46,9 +42,9 @@ Non-Guess Constraint
 
 
 
-¬infer(missing)
+¬infer(missing)  
 
-¬assume(hidden)
+¬assume(hidden)  
 
 truth := observed\_only
 
@@ -58,19 +54,19 @@ Completeness Test
 
 
 
-rebuild(system₀) == systemₙ
+rebuild(system₀) = systemₙ  
 
 ⇒ understood(system)
 
 
 
-Reflection Token
+◻
 
 
 
-\[\[strip reveals]]
+\[\[strip reveals]]  
 
-\[\[rebuild proves]]
+\[\[rebuild proves]]  
 
 \[\[guessing forbidden]]
 

@@ -10,11 +10,11 @@ File Ontology
 
 
 
-F := {required outputs}
+F := {required outputs}  
 
-∀f ∈ F:
+∀f ∈ F:  
 
-&#x20; exists(f) = 1
+&#x20; exists(f) = 1  
 
 &#x20; valid(f) = 1
 
@@ -24,11 +24,11 @@ Validity Definition
 
 
 
-valid(f) :=
+valid(f) :=  
 
-&#x20; exists(f)
+&#x20; exists(f)  
 
-&#x20; ∧ parseable(NDJSON)
+&#x20; ∧ parseable(NDJSON)  
 
 &#x20; ∧ readable
 
@@ -38,7 +38,7 @@ Absence Law
 
 
 
-¬exists(f) ⇒ failure
+¬exists(f) ⇒ failure  
 
 ∴ absence ≠ meaning
 
@@ -60,13 +60,13 @@ S := (inputs → outputs)
 
 
 
-success(S) :=
+success(S) :=  
 
-&#x20; ∀input ∈ I: exists(input)
+&#x20; ∀input ∈ I: exists(input)  
 
-&#x20; ∧ ∀output ∈ O: exists(output)
+&#x20; ∧ ∀output ∈ O: exists(output)  
 
-&#x20; ∧ ∀output ∈ O: valid(output)
+&#x20; ∧ ∀output ∈ O: valid(output)  
 
 &#x20; ∧ rc = 0
 
@@ -76,19 +76,19 @@ Binary Outcome
 
 
 
-success ∈ {0,1}
+success ∈ {0,1}  
 
 ¬partial\_state
 
 
 
-Reflection Token
+◻
 
 
 
-\[\[presence > content]]
+\[\[presence > content]]  
 
-\[\[absence = failure]]
+\[\[absence = failure]]  
 
 \[\[validity ⟂ meaning]]
 

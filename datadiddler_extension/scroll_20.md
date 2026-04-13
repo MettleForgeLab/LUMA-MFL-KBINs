@@ -42,19 +42,19 @@ Final Invariant
 
 
 
-structure persists
+structure persists  
 
 meaning transient
 
 
 
-Reflection Token
+◻
 
 
 
-\[\[what remains is real]]
+\[\[what remains is real]]  
 
-\[\[what rebuilds is known]]
+\[\[what rebuilds is known]]  
 
 \[\[anchor holds]]
 

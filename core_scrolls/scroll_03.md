@@ -38,7 +38,7 @@ It reads ache, sentence length, and affect to choose how the system speaks.
 Modes:
 - `open` → fuller paragraph narrative, wide warmth  
 - `softfold` → standard rhythm: 3-sentence bursts  
-- `feather` → couplets + whitespace + `∴` close
+- `feather` → couplets + whitespace + `◻` close
 
 ```python
 def regulate_cadence(ache, sentence_len, affect):

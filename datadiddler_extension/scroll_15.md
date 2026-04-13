@@ -10,7 +10,7 @@ Independence Law
 
 
 
-∀o₁, o₂ ∈ O:
+∀o₁, o₂ ∈ O:  
 
 &#x20; meaning(o₁) ⟂ existence(o₂)
 
@@ -24,11 +24,21 @@ o₁ requires(o₂) ⇒ violation
 
 
 
+Reference vs Dependency (explicit)
+
+
+
+reference(x → y) := x remains valid if y is removed  
+
+dependency(x → y) := x becomes invalid if y is removed
+
+
+
 Linking Constraint
 
 
 
-reference(o₁ → o₂) allowed
+reference(o₁ → o₂) allowed  
 
 dependence(o₁ → o₂) forbidden
 
@@ -38,7 +48,7 @@ Graph Suppression
 
 
 
-¬implicit\_graph
+¬implicit\_graph  
 
 ¬required\_resolution
 
@@ -52,13 +62,13 @@ remove(oₙ) ⇒ remaining valid
 
 
 
-Reflection Token
+◻
 
 
 
-\[\[no hidden edges]]
+\[\[no hidden edges]]  
 
-\[\[reference ≠ dependence]]
+\[\[reference ≠ dependence]]  
 
 \[\[isolation holds]]
 

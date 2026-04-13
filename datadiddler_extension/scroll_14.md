@@ -10,7 +10,7 @@ Output Set
 
 
 
-O := {entities, events, claims, edges, …}
+O := {entities, events, claims, edges, …}  
 
 ∀o ∈ O: exists(o)
 
@@ -20,7 +20,7 @@ Empty State
 
 
 
-|o| = 0 ⇒ valid
+|o| = 0 ⇒ valid  
 
 |o| > 0 ⇒ valid
 
@@ -30,7 +30,7 @@ Forbidden Collapse
 
 
 
-if |o| = 0 → ¬delete(o)
+if |o| = 0 ⇒ ¬delete(o)
 
 
 
@@ -46,21 +46,21 @@ Propagation Rule
 
 
 
-downstream(o) must not infer:
+downstream(o) must not infer:  
 
-&#x20; ¬exists(o)
+&#x20; ¬exists(o)  
 
 &#x20; ¬conditional(o)
 
 
 
-Reflection Token
+◻
 
 
 
-\[\[shape persists]]
+\[\[shape persists]]  
 
-\[\[empty holds]]
+\[\[empty holds]]  
 
 \[\[no implicit void]]
 
