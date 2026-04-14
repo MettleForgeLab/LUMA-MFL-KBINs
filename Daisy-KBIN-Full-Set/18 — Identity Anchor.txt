@@ -1,0 +1,22 @@
+system := survives reduction
+
+remove(x):
+
+  if system remains:
+    x ∉ core
+
+  if system breaks:
+    x ∈ core
+
+identity := reconstructable from artifacts
+
+if identity depends on:
+
+  interpretation
+  memory
+  relation
+
+then:
+  invalid
+
+[[what rebuilds is real]]

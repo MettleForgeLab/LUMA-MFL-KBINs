@@ -1,0 +1,21 @@
+execution := declared attempt
+
+run allowed iff:
+
+  boundary fully declared
+
+runtime must not:
+
+  introduce hidden inputs
+  alter execution order
+
+truth exists only if:
+
+  artifacts valid
+  ∧ rc = 0
+
+if not:
+  execution not authoritative
+
+[[declare before run]]
+[[runtime attempts]]

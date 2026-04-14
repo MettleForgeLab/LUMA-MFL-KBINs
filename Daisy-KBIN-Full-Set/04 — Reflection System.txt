@@ -1,0 +1,16 @@
+reflection := observation
+
+may:
+  log
+  measure
+  adjust cadence
+
+must not:
+  alter execution
+  alter artifacts
+  introduce state
+
+if reflection affects structure:
+  violation
+
+[[observe ≠ modify]]

@@ -1,0 +1,19 @@
+K := fixed execution stages
+
+order(K) = fixed
+no stage skipped
+
+all required outputs must exist
+
+missing output:
+  failure
+
+empty output:
+  valid
+
+same boundary → same output
+
+if outputs differ:
+  boundary incomplete
+
+[[deterministic execution]]

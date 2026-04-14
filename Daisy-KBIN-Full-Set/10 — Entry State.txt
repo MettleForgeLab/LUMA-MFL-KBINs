@@ -1,0 +1,14 @@
+system must begin from:
+
+  declared state
+
+no implicit initialization
+no assumed context
+
+if state unknown:
+  system not ready
+
+if execution begins without declaration:
+  outputs non-authoritative
+
+[[explicit entry required]]

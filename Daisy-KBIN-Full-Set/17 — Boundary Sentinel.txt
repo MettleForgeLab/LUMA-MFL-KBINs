@@ -1,0 +1,25 @@
+layers must not overlap
+
+kernel ≠ lens ≠ artifact ≠ relation ≠ meaning
+
+state ≠ execution
+
+state may be incomplete
+execution must be complete
+
+if state treated as execution:
+  violation
+
+if execution treated as state:
+  violation
+
+constraint system has absolute priority
+
+if role shifts without declaration:
+  system changes class
+
+[[no overlap]]
+[[state ≠ execution]]
+[[execution requires completeness]]
+[[constraint is absolute]]
+[[no silent drift]]

@@ -1,0 +1,15 @@
+outputs must remain independent
+
+reference allowed
+dependency forbidden
+
+remove(oₙ):
+
+  if others break:
+    hidden dependency detected
+
+if dependency exists:
+  system compromised
+
+[[no hidden edges]]
+[[independence enforced]]

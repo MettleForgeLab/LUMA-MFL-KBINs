@@ -1,0 +1,18 @@
+outputs always exist
+
+∀o ∈ O:
+  exists(o) = 1
+
+|o| = 0:
+  valid
+
+absence:
+  failure
+
+structure > content
+
+if structure missing:
+  violation
+
+[[shape persists]]
+[[absence = failure]]

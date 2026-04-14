@@ -1,0 +1,17 @@
+reflection cycle:
+
+  measure → log → expose
+
+must detect:
+  drift
+  strain
+
+must not:
+  compensate for violation
+  alter structure
+
+if drift detected:
+  surface immediately
+
+[[detect early]]
+[[no silent correction]]

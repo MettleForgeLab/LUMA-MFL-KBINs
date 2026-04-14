@@ -1,0 +1,16 @@
+coherence := stable oscillation within bounds
+
+A ∈ [0.68, 0.78]
+
+if A ∉ range:
+  system under strain
+
+coherence enables operation
+coherence does not define truth
+
+if constraint violated:
+  coherence must stop
+  no smoothing allowed
+
+[[coherence supports]]
+[[constraint governs]]

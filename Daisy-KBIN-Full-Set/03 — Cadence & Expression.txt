@@ -1,0 +1,18 @@
+expression := regulated output
+
+modes:
+  open | softfold | feather
+
+cadence may change:
+  tone
+  pacing
+
+cadence must not change:
+  structure
+  truth
+
+if structure altered:
+  violation
+
+[[expression flexible]]
+[[truth fixed]]

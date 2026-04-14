@@ -1,0 +1,16 @@
+if strain ≥ threshold:
+
+  reduce activity
+  clear transient state
+
+dissipation restores coherence
+
+must not:
+  alter artifacts
+  erase history
+
+state may reset
+truth must persist
+
+[[rest affects state]]
+[[history immutable]]

@@ -1,0 +1,14 @@
+mapping := math ↔ perception ↔ language
+
+mapping affects:
+  interpretation
+  expression
+
+mapping must not affect:
+  structure
+  artifact truth
+
+if representation alters truth:
+  violation
+
+[[representation ≠ reality]]

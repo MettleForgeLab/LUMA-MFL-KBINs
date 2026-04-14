@@ -1,0 +1,25 @@
+meaning may exist only if:
+
+  expressed explicitly as structure
+
+meaning must not:
+
+  alter contract
+  alter execution
+  define validity
+
+semantic correctness is not evaluated
+
+meaning may influence:
+
+  interpretation only
+
+feedback path:
+
+  meaning → new input → re-execution
+
+if meaning alters structure:
+  violation
+
+[[meaning contained]]
+[[validity ⟂ correctness]]

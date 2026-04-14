@@ -1,0 +1,11 @@
+understanding := rebuildability
+
+if system cannot be rebuilt:
+  not understood
+
+truth := observed ∧ reproducible
+
+if explanation ≠ reconstruction:
+  explanation not authoritative
+
+[[rebuild proves truth]]

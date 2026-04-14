@@ -1,0 +1,16 @@
+echo := explicit reflection record
+
+must be:
+  observable
+  inspectable
+
+echo may describe state
+
+echo must not:
+  influence execution
+  create dependency
+
+if echo affects structure:
+  violation
+
+[[reflection externalized]]

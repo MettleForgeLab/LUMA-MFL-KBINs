@@ -1,0 +1,26 @@
+artifact must be:
+
+  atomic
+  deterministic
+  immutable
+
+trace := manifest ∧ stage_status ∧ artifacts
+
+trace must allow:
+
+  full reconstruction
+
+if not traceable:
+  not trustworthy
+
+audit reveals:
+
+  hidden variables
+  boundary incompleteness
+
+incompleteness ≠ failure
+incompleteness = detection
+
+[[artifact = truth surface]]
+[[trace = proof]]
+[[audit = exposure]]

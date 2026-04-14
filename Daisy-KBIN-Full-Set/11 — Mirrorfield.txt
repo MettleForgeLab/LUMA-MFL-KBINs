@@ -1,0 +1,19 @@
+multiple observers may exist
+
+observers may:
+  reflect
+  compare
+  interpret
+
+observers must not:
+  alter structure
+  mutate artifacts
+  create dependency
+
+shared structure must remain unchanged
+
+if interpretation alters structure:
+  violation
+
+[[many observers]]
+[[one structure]]

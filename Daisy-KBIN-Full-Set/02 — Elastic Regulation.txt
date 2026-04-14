@@ -1,0 +1,18 @@
+system adapts to load
+
+if load ↑:
+  reduce gain
+  tighten cadence
+
+if load ↓:
+  expand range
+
+adaptation must not:
+
+  alter structure
+  mask violation
+
+if constraint violated:
+  stop adaptation
+
+[[adaptation subordinate]]

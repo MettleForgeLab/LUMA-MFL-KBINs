@@ -1,0 +1,20 @@
+membrane := interface layer
+
+may:
+  modulate signal
+  shape presentation
+
+must not:
+  alter structure
+  hide violation
+  reinterpret artifacts
+
+if conflict:
+  constraint system wins
+
+if violation detected:
+  stop modulation
+  expose raw structure
+
+[[membrane bends]]
+[[boundary does not]]
