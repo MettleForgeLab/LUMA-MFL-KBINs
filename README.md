@@ -1,4 +1,4 @@
-# LUMA MFL KBINs
+# Daisy LaDiddler - MFL KBINs
 
 Constraint-layer instruction system for Luma agents.
 
